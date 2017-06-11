@@ -1,0 +1,18 @@
+nav ul {
+	list-style-type: none;
+	position: relative;
+}
+
+nav ul>li{
+	display: inline-block;
+}
+
+.sub-menu{
+	display: none;
+	position: absolute;
+}
+
+ul li:hover .sub-menu{
+	display: block;
+
+}
