@@ -1,18 +1,61 @@
-nav ul {
-	list-style-type: none;
-	position: relative;
-}
+.top-menu{
+	width: 300px;
+	clear: both;
+	display: block;
 
-nav ul>li{
+}
+nav li{
+	list-style-type: none;
 	display: inline-block;
 }
 
-.sub-menu{
+.sub-menu, .sub-menu2{
 	display: none;
+
+}
+.menu{
 	position: absolute;
 }
+.menu li{
+	width: 140px;
+	height: 50px;
+	background: orange;
+	text-align: center;
+	line-height: 45px;
+	border:1px solid black;
+	float: left;
+	position: relative;
+	margin-right:5px;
+	border-radius: 5px;
+}
+.menu li:hover{
+	background: blue;
+}
 
-ul li:hover .sub-menu{
+.menu li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.menu>li:hover .sub-menu{
 	display: block;
+	position: relative;
+	top: 5px;
+	left: -40px;
+}
 
+.sub-menu li:hover .sub-menu2{
+	display: block;
+	position: relative;
+	left:100px;
+	top:-40px;
+}
+.d0,.d1,.d2,.d3 {
+	width:100px;
+	height: 100px;
+	display: block;
+	background: red;
+	float: left;
+	margin-right: 30px;
 }
