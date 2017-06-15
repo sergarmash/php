@@ -59,3 +59,10 @@ nav li{
 	float: left;
 	margin-right: 30px;
 }
+
+.ul ul{
+	list-style-type: none;
+	list-style-image: url(http://dodgeram.ru/templates/jf_social/images/icons/insert-icon.png);
+	margin-left: 200px;
+	margin-top: 200px;
+}
